@@ -20,7 +20,7 @@ export default async function HalamanPerpustakaan() {
         Data buku di bawah ini diambil oleh <strong>Server Component</strong>, sedangkan fitur pencarian dan tombol pinjam dijalankan oleh <strong>Client Component</strong>!
       </p>
 
-      {/* Mengoper data dari Server Component ke Client Component melalui Props */}
+  
       <EtalaseBukuInteraktif daftarBukuAwal={koleksiBuku} />
     </main>
   );
